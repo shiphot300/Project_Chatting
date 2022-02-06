@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+	padding: 25px
+}
+
+.container h1 {
+	text-align: left;
+	padding: 5px 5px 5px 15px;
+	color: #FFBB00;
+	border-left: 3px solid #FFBB00;
+	margin-bottom: 20px;
+}
+
+.chating {
+	background-color: #FFFFFF;
+	width: 500px;
+	height: 500px;
+	border: 1px solid #FFBB00;
+	overflow: auto;
+}
+
+.chating .me {
+	color: #000000;
+	text-align: right;
+}
+
+.chating .me #txtMe{
+	border:3px solid #000000;
+	border-radius:10px;
+	margin : 8px;
+	margin-left:65%;
+	padding : 5px;
+	width:35%;
+	float:right;
+	position:relative;
+}
+
+.chating .others{
+	color: #FFBB00;
+	text-align: left;
+}
+
+.chating .others #txtOther{
+	border:3px solid #FFBB00;
+	border-radius:10px;
+	margin : 8px;
+	margin-right:65%;
+	padding : 5px;
+	width:35%;
+	float:left;
+}
+
+
+input {
+	width: 330px;
+	height: 25px;
+}
+
+#userName {
+	border: 1px solid #FFBB00;
+	padding-left:2px;
+}
+
+#chatting {
+	border: 1px solid #FFBB00;
+}
+
+button {
+	width : 110px;
+	background-color: #FFBB00;
+	font-size: 16px;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
+}
+
+#yourMsg {
+	display: none;
+}
